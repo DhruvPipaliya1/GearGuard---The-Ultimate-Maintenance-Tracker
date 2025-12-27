@@ -7,12 +7,15 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "seed:manager": "node src/seed/manager.seed.js"
+    "seed:all": "node src/seed/full.seed.js"
   },
   "keywords": [],
   "author": "Dhruv",
   "license": "ISC",
   "dependencies": {
+    "@langchain/core": "^1.1.8",
+    "@langchain/groq": "^1.0.2",
+    "@langchain/langgraph": "^1.0.7",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
